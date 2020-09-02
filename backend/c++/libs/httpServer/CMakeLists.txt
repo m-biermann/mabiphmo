@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.16)
-project(httpServer)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -9,15 +8,21 @@ else()
     add_compile_options(-Wall -Wextra -pedantic -Werror)
 endif()
 
-include_directories(include)
+add_library(httpServer src/main.cpp src/construction/AppBuilder.cpp src/construction/AppBuilder.h src/session/Session.cpp src/session/Session.h)
 
-add_library(httpServer include/mabiphmo/httpServer/construction/IAppBuilder.h src/main.cpp include/mabiphmo/httpServer/main.h src/construction/AppBuilder.cpp src/construction/AppBuilder.h include/mabiphmo/httpServer/handler/IHandler.h include/mabiphmo/httpServer/handler/IContextHandler.h include/mabiphmo/httpServer/handler/IHandlerContext.h include/mabiphmo/httpServer/handler/IRequestContext.h src/acceptor/AcceptorBase.cpp src/acceptor/AcceptorBase.h src/acceptor/ClearTextAcceptor.cpp src/acceptor/ClearTextAcceptor.h src/acceptor/SslAcceptor.cpp src/acceptor/SslAcceptor.h include/mabiphmo/httpServer/handler/Sender.h include/mabiphmo/httpServer/handler/HandlerResult.h src/session/Session.cpp src/session/Session.h)
+target_include_directories(httpServer PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+        $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}> PUBLIC ${Boost_INCLUDE_DIR})
 
-find_package(Boost REQUIRED)
-include_directories(${Boost_INCLUDE_DIR})
-target_link_libraries(httpServer ${BOOST_LIB_DIR})
+target_link_libraries(httpServer PUBLIC ${PROJECT_NAME}::portServer)
 
-find_library(iocServer REQUIRED)
-target_link_libraries(httpServer ${iocServer_LIB_DIR})
+add_library(${PROJECT_NAME}::httpServer ALIAS httpServer)
 
 add_subdirectory(test)
+
+include(GNUInstallDirs)
+install(TARGETS httpServer
+        EXPORT ${PROJECT_NAME}Targets
+        ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}/${PROJECT_NAME}
+        )
+
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/mabiphmo TYPE INCLUDE)

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="mabiphmo" targetName="iocTests" />
+      <config projectName="mabiphmo" targetName="portServer" />
+      <config projectName="mabiphmo" targetName="httpServer" />
+      <config projectName="mabiphmo" targetName="iocServerTests" />
+      <config projectName="mabiphmo" targetName="portServerTests" />
+      <config projectName="mabiphmo" targetName="httpServerTests" />
+      <config projectName="mabiphmo" targetName="iocServer" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+      <configuration PROFILE_NAME="RelWithDebInfo" CONFIG_NAME="RelWithDebInfo" />
+      <configuration PROFILE_NAME="MinSizeRel" CONFIG_NAME="MinSizeRel" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="569d0b7b-aa02-447a-8f64-135c1081143a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mabiphmoConfig.cmake.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/.idea/dictionaries/max.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/max.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/.idea/httpServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/httpServer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/httpServer/test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/test/test1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/httpServer/test/test1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/.idea/ioc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/include/mabiphmo/ioc/Container.h" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/include/mabiphmo/ioc/Container.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/stud.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/.idea/iocServer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/IAppBuilder.h" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/IAppBuilder.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/ServiceArgBaseCast.h" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/ServiceArgPointerBaseCast.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/ServiceArgRelation.h" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/ServiceArgRelation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/ServiceArgValue.h" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/ServiceArgValue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/.idea/portServer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/include/mabiphmo/portServer/construction/IAppBuilder.h" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/include/mabiphmo/portServer/construction/IAppBuilder.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/src/construction/AppBuilder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/src/construction/AppBuilder.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/src/construction/AppBuilder.h" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/src/construction/AppBuilder.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/test/test1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/test/test1.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:MinSizeRel" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1gy3PmEnlyxAzWoOPtkEVQ3XpgI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager" selected="Boost.Test.httpServerTests">
+    <configuration name="httpServerTests" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mabiphmo" TARGET_NAME="httpServerTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mabiphmo" RUN_TARGET_NAME="httpServerTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iocServerTests" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mabiphmo" TARGET_NAME="iocServerTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mabiphmo" RUN_TARGET_NAME="iocServerTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iocTests" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mabiphmo" TARGET_NAME="iocTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mabiphmo" RUN_TARGET_NAME="iocTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="portServerTests" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mabiphmo" TARGET_NAME="portServerTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mabiphmo" RUN_TARGET_NAME="portServerTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="httpServer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mabiphmo" TARGET_NAME="httpServer" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iocServer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mabiphmo" TARGET_NAME="iocServer" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="portServer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mabiphmo" TARGET_NAME="portServer" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="iocTests" type="CMakeBoostTestRunConfigurationType" />
+      <toRun name="iocServerTests" type="CMakeBoostTestRunConfigurationType" />
+      <toRun name="portServerTests" type="CMakeBoostTestRunConfigurationType" />
+      <toRun name="httpServerTests" type="CMakeBoostTestRunConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Boost.Test.httpServerTests" />
+      <item itemvalue="Boost.Test.iocServerTests" />
+      <item itemvalue="Boost.Test.iocTests" />
+      <item itemvalue="Boost.Test.portServerTests" />
+      <item itemvalue="CMake Application.httpServer" />
+      <item itemvalue="CMake Application.iocServer" />
+      <item itemvalue="CMake Application.portServer" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="569d0b7b-aa02-447a-8f64-135c1081143a" name="Default Changelist" comment="" />
+      <created>1599072984381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599072984381</updated>
+      <workItem from="1599072999683" duration="693000" />
+      <workItem from="1599073764115" duration="114000" />
+      <workItem from="1599073969484" duration="59000" />
+      <workItem from="1599074035454" duration="11722000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599084961122">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732@0.0.1366.732" timestamp="1599084961122" />
+    <state x="100" y="100" width="1166" height="532" key="DiffContextDialog" timestamp="1599074510931">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="100" y="100" width="1166" height="532" key="DiffContextDialog/0.0.1366.732@0.0.1366.732" timestamp="1599074510931" />
+    <state x="471" y="124" key="FileChooserDialogImpl" timestamp="1599078499157">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="471" y="124" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1599078499157" />
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1599085130624">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1599085130624" />
+    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1599085130622">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1599085130622" />
+    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1599085130621">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1599085130621" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1599085130623">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1599085130623" />
+    <state x="172" y="1" key="SettingsEditor" timestamp="1599085644505">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="172" y="1" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1599085644505" />
+  </component>
+</project>
