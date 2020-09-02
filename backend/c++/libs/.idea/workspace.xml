@@ -39,58 +39,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="569d0b7b-aa02-447a-8f64-135c1081143a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mabiphmoConfig.cmake.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpServer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpServer/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpServer/.idea/dictionaries/max.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/max.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpServer/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpServer/.idea/httpServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpServer/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpServer/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpServer/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpServer/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/httpServer/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpServer/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/httpServer/test/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/httpServer/test/test1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/httpServer/test/test1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/.idea/ioc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/include/mabiphmo/ioc/Container.h" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/include/mabiphmo/ioc/Container.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/stud.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/test/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/.idea/iocServer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/IAppBuilder.h" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/IAppBuilder.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/ServiceArgBaseCast.h" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/ServiceArgPointerBaseCast.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/ServiceArgRelation.h" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/ServiceArgRelation.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/ServiceArgValue.h" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/include/mabiphmo/iocServer/construction/ServiceArgValue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/test/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/.idea/portServer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/include/mabiphmo/portServer/construction/IAppBuilder.h" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/include/mabiphmo/portServer/construction/IAppBuilder.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/src/construction/AppBuilder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/src/construction/AppBuilder.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/src/construction/AppBuilder.h" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/src/construction/AppBuilder.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/test/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portServer/test/test1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/test/test1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +138,7 @@
       <workItem from="1599072999683" duration="693000" />
       <workItem from="1599073764115" duration="114000" />
       <workItem from="1599073969484" duration="59000" />
-      <workItem from="1599074035454" duration="11722000" />
+      <workItem from="1599074035454" duration="12310000" />
     </task>
     <servers />
   </component>
@@ -220,22 +169,22 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="471" y="124" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1599078499157" />
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1599085130624">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1599086473008">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1599085130624" />
-    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1599085130622">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1599086473008" />
+    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1599086473007">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1599085130622" />
-    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1599085130621">
+    <state width="1320" height="172" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1599086473007" />
+    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1599086473007">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1599085130621" />
-    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1599085130623">
+    <state width="1320" height="172" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1599086473007" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1599086473008">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1599085130623" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1599086473008" />
     <state x="172" y="1" key="SettingsEditor" timestamp="1599085644505">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
