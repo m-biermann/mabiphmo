@@ -12,7 +12,7 @@ include(GNUInstallDirs)
 message(STATUS "CMAKE_INSTALL_PREFIX: ${CMAKE_INSTALL_PREFIX}")
 
 set (Boost_USE_STATIC_LIBS OFF)
-find_package(Boost REQUIRED)
+find_package(Boost REQUIRED COMPONENTS unit_test_framework)
 
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
