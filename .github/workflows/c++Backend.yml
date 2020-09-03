@@ -30,7 +30,7 @@ jobs:
 
     - name: Boost Installed
       if: steps.cache.outputs.cache-hit == 'true'
-      run: echo "DONE"
+      run: echo "steps.cache.outputs.cache-hit: ${{steps.cache.outputs.cache-hit}}"
 
     - name: Cached files
       if: steps.cache.outputs.cache-hit == 'true'
@@ -94,7 +94,7 @@ jobs:
     
     - name: Boost not found!
       if: steps.cache.outputs.cache-hit != 'true'
-      run: echo ""
+      run: echo "steps.cache.outputs.cache-hit: ${{steps.cache.outputs.cache-hit}}"
 
     - name: Cached files
       if: steps.cache.outputs.cache-hit == 'true'
