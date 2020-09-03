@@ -17,6 +17,8 @@ find_package(Boost REQUIRED COMPONENTS unit_test_framework)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
 
+enable_testing()
+
 add_subdirectory(ioc)
 add_subdirectory(iocServer)
 add_subdirectory(portServer)

@@ -46,7 +46,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="569d0b7b-aa02-447a-8f64-135c1081143a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.github/workflows/c++Libs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.github/workflows/c++Libs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpServer/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/httpServer/test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iocServer/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portServer/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/portServer/test/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +82,11 @@
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager" selected="Boost.Test.httpServerTests">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="httpServerTests" type="CMakeBoostTestRunConfigurationType" factoryName="Boost Test" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mabiphmo" TARGET_NAME="httpServerTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mabiphmo" RUN_TARGET_NAME="httpServerTests" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -98,11 +109,6 @@
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="httpServer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mabiphmo" TARGET_NAME="httpServer" CONFIG_NAME="Debug">
@@ -159,6 +165,7 @@
       <workItem from="1599074035454" duration="12310000" />
       <workItem from="1599091453410" duration="640000" />
       <workItem from="1599149688158" duration="581000" />
+      <workItem from="1599162830634" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="Added Boost Include dirs as dependency to iocServer">
       <created>1599091964929</created>

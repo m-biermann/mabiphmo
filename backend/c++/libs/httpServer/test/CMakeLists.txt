@@ -3,3 +3,5 @@
 add_executable (httpServerTests test1.cpp)
 target_link_libraries (httpServerTests PRIVATE ${Boost_LIBRARIES} httpServer)
 target_include_directories(httpServerTests PRIVATE ${Boost_INCLUDE_DIRS})
+
+add_test(NAME httpServerTests COMMAND httpServerTests)
