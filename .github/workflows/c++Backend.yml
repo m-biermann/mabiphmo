@@ -47,7 +47,7 @@ jobs:
       if: steps.cache.outputs.cache-hit != 'true'
       working-directory: ${{runner.workspace}}/boost
       shell: bash
-      run: "([ -f boost_${{ env.Boost_Version }}.tar.gz ] && echo 'Skipped [done already]') || wget https://dl.bintray.com/boostorg/release/${{ env.Boost_Version_DOT >
+      run: "([ -f boost_${{ env.Boost_Version }}.tar.gz ] && echo 'Skipped [done already]') || wget https://dl.bintray.com/boostorg/release/${{ env.Boost_Version_DOT }}/source/boost_${{ env.Boost_Version }}.tar.gz"
 
     - name: Extract Boost
       if: steps.cache.outputs.cache-hit != 'true'
