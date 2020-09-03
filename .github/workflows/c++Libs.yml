@@ -1,6 +1,7 @@
 name: c++ Libs
 
 on:
+  workflow_dispatch:
   push:
     paths: 
     - 'backend/c\+\+/libs/**'
