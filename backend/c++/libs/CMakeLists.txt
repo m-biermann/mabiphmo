@@ -1,12 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 project(mabiphmo)
 
-set(USEGLOBALDIRS ON)
-
-if(NOT ${USEGLOBALDIRS})
-set(CMAKE_INSTALL_PREFIX /home/max)
-endif()
-
 include(GNUInstallDirs)
 
 message(STATUS "CMAKE_INSTALL_PREFIX: ${CMAKE_INSTALL_PREFIX}")
