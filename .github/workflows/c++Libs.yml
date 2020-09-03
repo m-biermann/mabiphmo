@@ -23,7 +23,7 @@ jobs:
 
     - name: Install boost
       shell: bash
-      run: [ ! -d /usr/local/include/boost ] && mkdir ${{runner.workspace}}/boost-build-1_74_0 && cd ${{runner.workspace}}/boost-build-1_74_0 && wget https://dl.bintray.com/boostorg/release/1.74.0/source/boost_1_74_0.tar.gz && tar xzvf boost_1_74_0.tar.gz && sudo ./bootstrap.sh && sudo ./b2 install
+      run: "[ ! -d /usr/local/include/boost ] && mkdir ${{runner.workspace}}/boost-build-1_74_0 && cd ${{runner.workspace}}/boost-build-1_74_0 && wget https://dl.bintray.com/boostorg/release/1.74.0/source/boost_1_74_0.tar.gz && tar xzvf boost_1_74_0.tar.gz && sudo ./bootstrap.sh && sudo ./b2 install"
       continue-on-error: true
 
     - name: Create Build Environment
