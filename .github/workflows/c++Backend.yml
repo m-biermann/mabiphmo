@@ -104,9 +104,6 @@ jobs:
 
     - name: Create Build Environment
       if: steps.cache.outputs.cache-hit == 'true'
-      env:
-        CMAKE_INSTALL_PREFIX: ${{runner.workspace}}/build_output
-        CMAKE_MODULE_PATH: ${{runner.workspace}}/boost_out
       # Some projects don't allow in-source building, so create a separate build directory
       # We'll use this as our working directory for all subsequent commands
       run: cmake -E make_directory ${{runner.workspace}}/build
@@ -119,7 +116,7 @@ jobs:
       working-directory: ${{runner.workspace}}/build
       env:
         CMAKE_INSTALL_PREFIX: ${{runner.workspace}}/build_output
-        CMAKE_MODULE_PATH: ${{runner.workspace}}/boost_out
+        BOOST_ROOT: ${{runner.workspace}}/boost_out
       # Note the current convention is to use the -S and -B options here to specify source 
       # and build directories, but this is only available with CMake 3.13 and higher.  
       # The CMake binaries on the Github Actions machines are (as of this writing) 3.12
@@ -129,9 +126,6 @@ jobs:
       if: steps.cache.outputs.cache-hit == 'true'
       working-directory: ${{runner.workspace}}/build
       shell: bash
-      env:
-        CMAKE_INSTALL_PREFIX: ${{runner.workspace}}/build_output
-        CMAKE_MODULE_PATH: ${{runner.workspace}}/boost_out
       # Execute the build.  You can specify a specific target with "--target <NAME>"
       run: cmake --build . --config $BUILD_TYPE --target all -- -j 2
       
@@ -140,8 +134,6 @@ jobs:
       working-directory: ${{runner.workspace}}/build
       env:
         BOOST_TEST_REPORT_LEVEL: detailed
-        CMAKE_INSTALL_PREFIX: ${{runner.workspace}}/build_output
-        CMAKE_MODULE_PATH: ${{runner.workspace}}/boost_out
       shell: bash
       # Execute tests defined by the CMake configuration.  
       # See https://cmake.org/cmake/help/latest/manual/ctest.1.html for more detail
@@ -150,9 +142,6 @@ jobs:
     - name: Install
       if: steps.cache.outputs.cache-hit == 'true'
       working-directory: ${{runner.workspace}}/build
-      env:
-        CMAKE_INSTALL_PREFIX: ${{runner.workspace}}/build_output
-        CMAKE_MODULE_PATH: ${{runner.workspace}}/boost_out
       shell: bash
       run: cmake --build . --config $BUILD_TYPE --target install -- -j 1
 
