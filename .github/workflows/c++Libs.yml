@@ -37,6 +37,13 @@ jobs:
     - name: Boost Installed
       if: steps.cache.outputs.cache-hit == 'true'
       run: echo "DONE"
+
+    - name: Cached files
+      if: steps.cache.outputs.cache-hit == 'true'
+      shell: bash
+      run: |
+        ls -laR /usr/local/include
+        ls -laR /usr/local/lib
     
     - name: Create Boost build dir
       if: steps.cache.outputs.cache-hit != 'true'
