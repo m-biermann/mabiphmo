@@ -149,5 +149,5 @@ jobs:
       if: steps.cache.outputs.cache-hit == 'true'
       uses: actions/upload-artifact@v2
       with:
-        name: Build
+        name: Libs
         path: ${{runner.workspace}}/build_output
