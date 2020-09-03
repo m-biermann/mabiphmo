@@ -16,17 +16,24 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="mabiphmo" targetName="iocServer" />
-      <config projectName="mabiphmo" targetName="httpServer" />
-      <config projectName="mabiphmo" targetName="httpServerTests" />
-      <config projectName="mabiphmo" targetName="portServerTests" />
       <config projectName="mabiphmo" targetName="iocTests" />
-      <config projectName="mabiphmo" targetName="iocServerTests" />
       <config projectName="mabiphmo" targetName="portServer" />
+      <config projectName="mabiphmo" targetName="httpServer" />
+      <config projectName="mabiphmo" targetName="iocServerTests" />
+      <config projectName="mabiphmo" targetName="portServerTests" />
+      <config projectName="mabiphmo" targetName="httpServerTests" />
+      <config projectName="mabiphmo" targetName="iocServer" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -40,7 +47,6 @@
   <component name="ChangeListManager">
     <list default="true" id="569d0b7b-aa02-447a-8f64-135c1081143a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iocServer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/iocServer/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +56,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
@@ -94,6 +100,11 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="httpServer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mabiphmo" TARGET_NAME="httpServer" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -116,6 +127,11 @@
       <toRun name="httpServerTests" type="CMakeBoostTestRunConfigurationType" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Boost.Test.httpServerTests" />
       <item itemvalue="Boost.Test.iocServerTests" />
@@ -126,6 +142,7 @@
       <item itemvalue="CMake Application.portServer" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -140,34 +157,59 @@
       <workItem from="1599073764115" duration="114000" />
       <workItem from="1599073969484" duration="59000" />
       <workItem from="1599074035454" duration="12310000" />
-      <workItem from="1599091453410" duration="447000" />
+      <workItem from="1599091453410" duration="640000" />
+      <workItem from="1599149688158" duration="581000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Boost Include dirs as dependency to iocServer">
+      <created>1599091964929</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599091964929</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Boost Include dirs as dependency to iocServer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Boost Include dirs as dependency to iocServer" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599084961122">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="147" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.732@0.0.1366.732" timestamp="1599084961122" />
-    <state x="100" y="100" width="1166" height="532" key="DiffContextDialog" timestamp="1599074510931">
+    <state x="100" y="100" width="1166" height="532" key="DiffContextDialog" timestamp="1599150299268">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="100" y="100" width="1166" height="532" key="DiffContextDialog/0.0.1366.732@0.0.1366.732" timestamp="1599074510931" />
+    <state x="100" y="100" width="1166" height="532" key="DiffContextDialog/0.0.1366.732@0.0.1366.732" timestamp="1599150299268" />
     <state x="471" y="124" key="FileChooserDialogImpl" timestamp="1599078499157">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -192,5 +234,13 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="172" y="1" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1599085644505" />
+    <state x="278" y="102" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1599091967211">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="278" y="102" width="800" height="527" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1599091967211" />
+    <state x="456" y="280" width="443" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599150225924">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="456" y="280" width="443" height="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.732@0.0.1366.732" timestamp="1599150225924" />
   </component>
 </project>
