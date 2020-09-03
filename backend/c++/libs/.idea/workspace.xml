@@ -46,6 +46,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="569d0b7b-aa02-447a-8f64-135c1081143a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +161,7 @@
       <workItem from="1599091453410" duration="640000" />
       <workItem from="1599149688158" duration="581000" />
       <workItem from="1599162830634" duration="244000" />
-      <workItem from="1599163737816" duration="34000" />
+      <workItem from="1599163737816" duration="868000" />
     </task>
     <task id="LOCAL-00001" summary="Added Boost Include dirs as dependency to iocServer">
       <created>1599091964929</created>

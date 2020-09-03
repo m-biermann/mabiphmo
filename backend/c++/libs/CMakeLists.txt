@@ -3,6 +3,10 @@ project(mabiphmo)
 
 include(GNUInstallDirs)
 
+if(DEFINED ENV{CMAKE_INSTALL_PREFIX})
+    set(CMAKE_INSTALL_PREFIX $ENV{CMAKE_INSTALL_PREFIX})
+endif()
+
 message(STATUS "CMAKE_INSTALL_PREFIX: ${CMAKE_INSTALL_PREFIX}")
 
 set (Boost_USE_STATIC_LIBS OFF)
